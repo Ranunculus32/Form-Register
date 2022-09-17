@@ -30,16 +30,17 @@ body {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	width: 500px;
-	height: 430px;
+	width: 600px;
+	height: 560px;
 } 
+
 .hover:hover{
     opacity: 0.5;
     color: white;
     cursor: pointer;
 }
 .form-box:before {
-	background-image: url(dahlia.jpeg);
+	background-image: url(/imgs/dahlia.jpeg);
 	width: 100%;
 	height: 100%;
 	background-size: cover;
