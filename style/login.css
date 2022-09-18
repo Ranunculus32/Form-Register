@@ -1,5 +1,3 @@
-/******CSS Reset*****/
-
 * {vertical-align: baseline;
     font-weight: inherit;
     font-family: inherit;
@@ -31,27 +29,30 @@ body {
 	left: 0;
 	right: 0;
 	width: 500px;
-	height: 560px;
+	height: 560px; 
 } 
 ul {
-	display: flex;
-	justify-content: space-evenly;
+    display: flex;
+    justify-content:space-evenly ;
 }
 ul li {
-	display: inline;
+    display: inline;
+    
 }
 
 a:link {
-	text-decoration: none;
+    text-decoration: none;
+  
 }
-a:hover{
-	color: red;
+a:hover {
+    color: red;
 }
 
-.hover:hover{
+
+label:hover{
    
-    color: white;
-    cursor: pointer;
+    color: brown;
+    cursor:pointer;
 }
 .form-box:before {
 	background-image: url(https://i.im.ge/2022/09/18/1SemMF.climbing.jpg);
@@ -64,18 +65,19 @@ a:hover{
 	right: 0;
 	top: 0;
 	bottom: 0;
-    z-index: -1;
+   z-index: -1;
 	display: block;
 	filter: blur(1px);
 }
 .form-box .header-text {
 	font-size: 24px;
 	font-weight: 600;
-	padding-bottom: 15px;
+  
+	padding-bottom: 25px;
 	text-align: center;
-	
     
 }
+
 .form-box input {
 	margin: 10px 0px;
 	border: none;
@@ -84,20 +86,17 @@ a:hover{
 	width: 100%;
 	font-size: 18px;
 	font-family: 'Poppins';
-	opacity: 0.5;
+   
+	
     
 }
-.form-box input[type=checkbox] {
-	display: none;
-}
+
 .form-box label {
 	position: relative;
 	margin-left: 5px;
 	margin-right: 10px;
 	top: 5px;
 	display: inline-block;
-	width: 20px;
-	height: 20px;
 	cursor: pointer;
 }
 .form-box label:before {
@@ -109,35 +108,14 @@ a:hover{
 	position: absolute;
 	left: 0;
 	bottom: 1px;
-	background-color:white;
-}
-.form-box input[type=checkbox]:checked+label:before {
-	content: "\2713";
-	font-size: 20px;
-	color: black;
-	text-align: center;
-	line-height: 20px;
-
-}
-.form-box span {
-	font-size: 14px;
+   
 }
 
-button:hover {
-    color: white;
-}
-
-.form-box button {
-	background-color:lightseagreen;
+#submit {
+    background-color:lightseagreen;
 	color:black;
-	border:2px;
-	border-radius: 5px;
-	cursor:pointer;
-	width: 100%;
-	font-size: 18px;
-	padding: 10px;
-	margin: 20px 0px;
+    cursor: pointer;
 }
-span a {
-	color: black;
+#submit:hover {
+    color:red;
 }
