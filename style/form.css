@@ -48,11 +48,11 @@ a:hover{
 	color: red;
 }
 
-.hover:hover{
+.hover:hover{ 
    
     color: white;
     cursor: pointer;
-}
+}				
 .form-box:before {
 	background-image: url(https://i.im.ge/2022/09/18/1SemMF.climbing.jpg);
 	width: 100%;
@@ -68,13 +68,12 @@ a:hover{
 	display: block;
 	filter: blur(1px);
 }
-.form-box .header-text {
+.form-box .register-header-text {   
+
 	font-size: 24px;
 	font-weight: 600;
 	padding-bottom: 15px;
-	text-align: center;
-	
-    
+	text-align: center;		
 }
 .form-box input {
 	margin: 10px 0px;
@@ -111,7 +110,7 @@ a:hover{
 	bottom: 1px;
 	background-color:white;
 }
-.form-box input[type=checkbox]:checked+label:before {
+.register input[type=checkbox]:checked+label:before {
 	content: "\2713";
 	font-size: 20px;
 	color: black;
@@ -119,7 +118,7 @@ a:hover{
 	line-height: 20px;
 
 }
-.form-box span {
+.register span {
 	font-size: 14px;
 }
 
@@ -127,7 +126,7 @@ button:hover {
     color: white;
 }
 
-.form-box button {
+.register button {
 	background-color:lightseagreen;
 	color:black;
 	border:2px;
